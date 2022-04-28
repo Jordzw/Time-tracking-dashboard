@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="content">
+        <div class="content__body">
+            <div class="content__profil">
+
+                <div class="content__profil-user">
+                    <img src="./images/image-jeremy.png" alt="">
+                    <div class="profil__text">
+                        <p class="profil__subtitle">Report for</p>
+                        <h3 class="profil__title">Jeremy Robson</h3>
+                    </div>
+                </div>
+                <div class="content__profil-nav">
+                    <button class="nav-item">Daily</button>
+                    <button class="nav-item active">Weekly</button>
+                    <button class="nav-item">Monthly</button>
+
+                </div>
+            </div>
+
+
+
+            <div class="content__data-panel work">
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>&bull;&bull;&bull;</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel play">
+
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>&bull;&bull;&bull;</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel study">
+                <div class="content-bg study">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>&bull;&bull;&bull;</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel exerc">
+                <div class="content-bg exercise">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>&bull;&bull;&bull;</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel social">
+                <div class="content-bg social">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>&bull;&bull;&bull;</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel self">
+                <div class="content-bg self">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>&bull;&bull;&bull;</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- <div class="content">
+
+
+        <div class="content__profil">
+            <div class="content__profil-user">
+                <img src="./images/image-jeremy.png" alt="">
+                <p>Report for</p>
+                <h1>Robinson Crusoë</h1>
+            </div>
+            <div class="content__profil-nav">
+                <a href="">Daily</a>
+                <a href="">Weekly</a>
+                <a href="">Montlhy</a>
+
+            </div>
+        </div>
+
+        <div class="content__data">
+
+            <div class="content__data-panel work-panel">
+                <div class="content-bg work">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>...</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel play-panel">
+                <div class="content-bg play">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>...</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel study-panel">
+                <div class="content-bg study">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>...</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel exerc-panel">
+                <div class="content-bg exercise">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>...</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel social-panel">
+                <div class="content-bg social">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>...</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__data-panel self-panel">
+                <div class="content-bg self">
+                </div>
+                <div class="content-data">
+                    <div class="content__top">
+                        <p>Work</p>
+                        <span>...</span>
+                    </div>
+                    <div class="content__mid">
+                        <h1>32hrs</h1>
+                    </div>
+                    <div class="content__bot">
+                        <p>Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
